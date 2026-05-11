@@ -9,14 +9,7 @@ Vinharia Agnello é um site para uma loja de vinhos online. O projeto apresenta 
 
 ## Estrutura do Projeto
 
-O site é organizado nas seguintes páginas:
-
 - **Home (`index.html`):** Página principal do site com acesso aos principais recursos.
-- **Sobre Nós (`src/pages/sobre-nos.html`):** Página que apresenta a história e informações sobre a empresa Vinharia Agnello.
-- **Produtos (`src/pages/produtos.html`):** Catálogo com todos os produtos disponíveis para venda.
-- **Detalhe do Produto (`src/pages/detalhe-produto.html`):** Página com informações detalhadas de um produto específico.
-- **Carrinho de Compras (`src/pages/carrinho-compra.html`):** Página do carrinho onde o cliente pode visualizar e gerenciar itens antes de finalizar a compra.
-- **Contato (`src/pages/contato.html`):** Página com informações de contato e formulário para comunicação com a empresa.
 
 ## Estrutura de Arquivos
 
@@ -47,7 +40,17 @@ vinharia-agnello/
 │       └── produtos.js
 ```
 
-## 
+## Funcionalidades
+
+- Permite o cadastro de vários vinhos em sequência, perguntando ao final se deseja cadastrar outro.
+- Valida entradas
+- Verifica se o estoque está baixo (menos de 5)
+- Classifica o vinho (jovem, amadurecido, antigo)
+- Mostra os dados no console com aviso por alert()
+- Resultado final:
+    - Quantos cadastros foram feitos
+    - Quantos vinhos têm estoque baixo
+    - O vinho com a safra mais antiga (comparando manualmente dentro das iterações)
 
 ## Integrantes
 
