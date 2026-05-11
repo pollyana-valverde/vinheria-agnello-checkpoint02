@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- link para o arquivo CSS principal padrão -->
+    <link rel="stylesheet" href="src/styles/index.css">
+    <!-- link para o arquivo CSS específico da página Home -->
+    <link rel="stylesheet" href="./src/styles/home.css">
+
+    <!-- nome da página na aba do navegador -->
+    <title>Home</title>
+</head>
+
+<body>
+    <!-- Navegação (Cabeçalho) -->
+    <header>
+        <nav class="navbar-container">
+            <!-- Logo com nome da empresa e link para a página inicial -->
+            <div class="logo-container">
+                <a href="index.html">
+                    <img class="logo-img" src="src/assets/icons/logo.svg" alt="Logo da empresa">
+                    <span class="logo-name">Vinharia Agnello</span>
+                </a>
+            </div>
+
+            <!-- Links de navegação para as páginas principais do site -->
+            <ul class="nav-links-container">
+                <li class="nav-link active"><a href="index.html">Ínicio</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Banner principal -->
+    <div class="banner-container">
+        <span class="banner-badge">Nossa coleção</span>
+        <h1 class="banner-title">
+            Mais que vinho,
+            <span class="banner-title-highlight">Consultoria Especializada</span>
+        </h1>
+        <p class="banner-description">
+            Descubra os melhores rótulos nacionais e internacionais com a ajuda dos nossos especialistas em
+            harmonização.
+        </p>
+            <button class="banner-button" id="add-vinho">
+                Adicionar vinho
+            </button>
+    </div>
+
+    <main class="main-container">
+        <section class="history-call-section">
+            <div class="history-call-body">
+                <h2 class="history-call-title">O Nosso Diferencial</h2>
+                <div class="history-call-description">
+                    <p>Na Vinheria Agnello, acreditamos que escolher um vinho não precisa ser complicado. Com mais de
+                        6.000 variedades de uvas pelo mundo, nosso principal foco é o <strong>atendimento
+                            consultivo</strong>.</p>
+                    <p>Nossos vendedores são profundos conhecedores prontos para guiar você pelas prateleiras,
+                        explicando rótulos, sugerindo harmonizações e garantindo que você leve para casa a garrafa
+                        perfeita para a sua ocasião.</p>
+                </div>
+
+                <a href="#" class="history-call-link">Conheça a nossa história
+                    <img src="./src/assets/icons/arrow-right.svg" alt="Ícone de seta para a direita">
+                </a>
+            </div>
+
+            <img src="./src/assets/images/servindo-vinho.png" alt="" class="history-call-image">
+        </section>
+
+        <section class="video-section">
+            <h2 class="video-title">Armazenagem Controlada</h2>
+            <p class="video-description">
+                O vinho é vivo. Sabemos que luz, temperatura e vibrações podem alterar suas propriedades. Por isso,
+                nossa adega mantém condições rigorosamente controladas, garantindo que o seu vinho chegue em perfeito
+                estado, exatamente como saiu da vinícola de origem.
+            </p>
+            <iframe class="video-iframe" src="https://www.youtube.com/embed/UQBGRuhMM8E?si=o1J_zFpwCVtgqg0l"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </section>
+    </main>
+
+    <!-- Rodapé (Footer) -->
+    <footer class="footer-container">
+        <h5 class="footer-logo-name">Vinharia Agnello</h5>
+        <p class="footer-description">Mais de 15 anos de dedicação ao vinho em São Paulo. Nossa equipe especializada
+            espera por você.</p>
+        <span class="footer-copy">&copy; 2026 Vinharia Agnello. Todos os direitos reservados.</span>
+    </footer>
+
+    <script type="module" src="./src/scripts/index.js"></script>
+</body>
+
+</html>

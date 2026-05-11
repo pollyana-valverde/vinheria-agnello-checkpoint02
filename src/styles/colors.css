@@ -1,0 +1,36 @@
+:root {
+    /* Cores das páginas home, produtos e detalhe-produto */
+    --white: #FFFFFF;
+
+    --gray-900: #1C1917;
+    --gray-800: #57534D;
+    --gray-700: #44403B;
+    --gray-600: #79716B;
+    --gray-500: #A6A09B;
+    --gray-300: #D6D3D1;
+    --gray-200: #E7E5E4;
+    --gray-100: #F5F5F4;
+    --gray-50: #FAFAF9;
+
+    --orange-800: #BB4D00;
+    --orange-600: #E17100;
+    --orange-400: #FE9A00;
+    --orange-300: #EFD9C1;
+    --orange-200: #FEF3C6;
+    --orange-100: #FFFBEB;
+
+
+    /* Cores da página de carrinho de compras*/
+    --gold: #C49A3C;
+    --gold-light: #E2B95A;
+    --dark: #1A1A1A;
+    --dark-mid: #2A2A2A;
+    --white: #FAFAF8;
+    --gray-light: #F4F3F0;
+    --gray-mid: #D0CECA;
+    --gray-text: #888580;
+    --green: #4A8C5C;
+    --red: #C0392B;
+    --radius: 12px;
+    --shadow: 0 4px 24px rgba(0, 0, 0, 0.08);
+}
